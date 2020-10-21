@@ -22,4 +22,47 @@
         android:name="com.example.escreening3.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_academicUndertaking"
+        android:name="com.example.escreening3.ui.fragAcademicUndertaking.FragAcademicUndertaking"
+        android:label="@string/menu_academicUndertaking"
+        tools:layout="@layout/fragment_academic_undertaking" />
+
+    <fragment
+        android:id="@+id/nav_antiCultUndertaking"
+        android:name="com.example.escreening3.ui.fragAntiCultUndertaking.FragAntiCultUndertaking"
+        android:label="@string/menu_antiCultUndertaking"
+        tools:layout="@layout/fragment_anti_cult_undertaking" />
+
+    <fragment
+        android:id="@+id/nav_studentRegistration"
+        android:name="com.example.escreening3.ui.fragStudentRegistration.FragStudentRegistration"
+        android:label="@string/menu_studentRegistration"
+        tools:layout="@layout/fragment_student_registration" />
+
+    <fragment
+        android:id="@+id/nav_courseRegistration"
+        android:name="com.example.escreening3.ui.fragCourseRegistration.FragCourseRegistration"
+        android:label="@string/menu_courseRegistration"
+        tools:layout="@layout/fragment_course_registration" />
+
+    <fragment
+        android:id="@+id/nav_hndProgramme"
+        android:name="com.example.escreening3.ui.fragHndProgramme.FragHndProgramme"
+        android:label="@string/menu_hndProgramme"
+        tools:layout="@layout/fragment_hnd_programme" />
+
+    <fragment
+        android:id="@+id/nav_bioData"
+        android:name="com.example.escreening3.ui.fragBioData.FragBioData"
+        android:label="@string/menu_bioData"
+        tools:layout="@layout/fragment_bio_data" />
+
+    <fragment
+        android:id="@+id/nav_myStatus"
+        android:name="com.example.escreening3.ui.fragMyStatus.FragMyStatus"
+        android:label="@string/my_status"
+        tools:layout="@layout/fragment_my_status" />
+
+
 </navigation>

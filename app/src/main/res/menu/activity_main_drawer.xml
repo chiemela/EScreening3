@@ -4,17 +4,37 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+        <item android:title = "@string/Undertaking">
+            <item
+                android:id="@+id/nav_academicUndertaking"
+                android:title="Academic Undertaking" />
+            <item
+                android:id="@+id/nav_antiCultUndertaking"
+                android:title="Anti-Cult Undertaking" />
+        </item>
+        <item android:title = "@string/Registration">
+            <item
+                android:id="@+id/nav_studentRegistration"
+                android:title="Student Registration"
+                />
+            <item
+                android:id="@+id/nav_courseRegistration"
+                android:title="Course Registration"/>
+        </item>
+        <item android:title="Data">
+            <item
+                android:id="@+id/nav_hndProgramme"
+                android:title="HND Programme" />
+            <item
+                android:id="@+id/nav_bioData"
+                android:title="Bio Data" />
+        </item>
+        <item android:title="CHECK YOUR SCREENING STATUS">
+            <menu>
+                <item
+                    android:id="@+id/nav_myStatus"
+                    android:title="My Status" />
+            </menu>
+        </item>
     </group>
 </menu>
